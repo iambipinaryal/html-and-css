@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function length(){
+            var l = document.getElementsByName("value")[0].value;
+            var textlength=l.length // Access input value
+            alert("The length of text"+ textlength); // Show the length of the text
+        }
+    </script>
+</head>
+<body>
+    <form>
+        Enter name: <input type="text" name="value"><br><br>
+        <input type="button" value="Length of text" onclick="length()">
+    </form>
+</body>
+</html>

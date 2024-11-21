@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Example</title>
+    <style>
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Form Example</h1>
+    <form >
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <label for="education">Education:</label>
+            <input type="checkbox" id="highschool" name="education" value="highschool">
+            <label for="highschool">High School</label>
+            <br>
+            <input type="checkbox" id="bachelor" name="education" value="bachelor">
+            <label for="bachelor">Bachelor's Degree</label>
+            <br>
+            <input type="checkbox" id="master" name="education" value="master">
+            <label for="master">Master's Degree</label>
+            <br>
+            <input type="checkbox" id="phd" name="education" value="phd">
+            <label for="phd">PhD</label>
+        
+            <button type="submit">Submit</button>
+     
+    </form>
+</body>
+</html>

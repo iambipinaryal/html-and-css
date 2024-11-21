@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label for="password">Password</label>
+    <input type="text" id="password" name="password"><br><br>
+
+    <label for ="Country">Country</label>
+    <select id="country" name="country">
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+        <option value="others">others</option>
+    </select><br><br>
+
+    <label for="Gender">Gender</label>
+    <input type="radio" id="male" name="Gender" >M
+    <input type="radio" id="female" name="Gender" >F<br><Br>
+
+    <input type="button" onclick="validateForm() " value="Submit" style="background-color: black; color: white;text-align: center;">
+
+<script type="text/javascript">
+    function validateForm(){
+        var username=document.getElementById("username").value;
+        if(username.length<4 || username==""){
+            alert("username must be filled and must contains atleast four digit");
+        return false;
+        }
+
+        var paswword=document.getElementById("password").value;
+        if(!password.match(/^[a-z A-Z]*#$/)){
+            alter("password should start with charecter and end with #");
+            return false;
+        }
+        
+    }
+</script>
+</fieldset>
+</body>
+</html>

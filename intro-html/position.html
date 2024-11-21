@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Element</title>
+    <style>
+       .position-div{
+        width:200px;
+        height:100px;
+        background-color: lightblue;
+        border:1px solid black
+       }
+        .static{
+            position:static;
+        }
+        .relative{
+            position: relative;
+            left:30px;
+            top:20px;
+        }
+        .absolute{
+            position:absolute;
+            right:50px;
+            bottom: 30px;
+        }
+        .fixed{
+            position:fixed;
+            top:20px;
+            left:30px;
+        }
+    </style>
+</head>
+<body><div class="positioned-div">
+    <div class="positoned-div static">static position</div>
+    <div class="positoned-div relative">relative position</div>
+    <div class="positoned-div absolute">absolute position</div>
+    <div class="positoned-div fixed">fixed position</div>
+
+    </div>
+</body>
+</html>

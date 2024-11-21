@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        tags
+    </title>
+    <body>
+        <p1>this is a paragraph</p1>
+        <br>
+        <i><b>this is a italic and bold tag</b></i>
+    </body>
+</head>
